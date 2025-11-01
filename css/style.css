@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mp10{
+    margin: 10px;
+    padding: 10px;
+}
+.heading{
+    position: sticky;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: #06C167;
+}
+.logoGallery{
+    display: flex;
+    margin: 0px 20px;
+    /* padding: 50px; */
+    color: #06C167;
+    width: 50%;
+}
+.navbar{
+    width: 50%;
+}
+.nav-menu{
+    display: flex;
+    list-style-type: none;
+    /* margin-left: 200px; */
+    justify-content: space-between;
+}
+
+.nav-items{
+    /* margin: 20px; */
+}
+.nav-items a{
+    text-decoration: none;
+}
+#check{
+    display: none;
+}
+.collapseNav{
+    display: none;
+    /* width: 20px; */
+    /* border: 1px solid #06C167 ; */
+}
+.home {
+    color: #06C167;
+}
+.home-icon{
+    margin-bottom: 40px;
+    margin-left: 40px;  
+    color: #06C167;   
+}
+.main{
+    margin: 50px 0px;
+}
+.hero{
+    display: flex;
+    /* position: relative; */
+}
+.hero-card{
+    margin: 20px;
+    width: 50%;
+}
+.hero-head{
+    margin: 20px;
+    padding: 20px;
+}
+.hero-content{
+    margin: 20px;
+    padding: 20px;
+}
+.hero-btn{
+    display: flex;
+    background: #06C167;
+    margin: 40px;
+    padding: 10px;
+}
+.logoGallery{
+    display: flex;
+    
+}
+.br_logo{
+    width: 100%;
+    height: 50px;
+
+}
+.hero-right{
+    /* align-self: flex-end; */
+    display: flex;
+    background-image: url(../images/hero.jpg);
+    width: 50%; 
+    height: 75vh;
+    background-size:cover; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.comments{
+    display: flex;
+    align-self:flex-end;
+}
+.rating{
+    display: flex;
+    align-self: flex-start;
+}
+.checked{
+    color: #06C167;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.shipping-icon{
+    background-image: url(../images/Icon-shipping.png);
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+.payment-icon{
+    background-image: url(../images/payment.png);
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+.social-icon{
+    background-image: url(../images/social.png);
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+.support-icon{
+    background-image: url(../images/support.png);
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+.card-content{
+}
+.benifits{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.img-benifits{
+    width: 50%;
+    height: 60vh;
+}
+.benifit-desc{
+    width: 50%;
+}
+.benifit-items{
+    list-style-image:url(../images/Icon\ awesome-check.png)
+}
+.stars{
+    display: flex;
+}
+.star-card{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.star-card-head{
+    color:#06C167;
+    font-size: 30px;
+}
+.btn-card-stars{
+    display: flex;
+    background: #06C167;
+    margin:  50px 100px 100px 200px;
+    padding: 10px;
+}
+.feature-section{
+    margin: 10px;
+}
+.feature-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.feature-img{
+    height: 200px;
+}
+.feature-card{
+     width: 25%;
+}
+.feature-descr{
+    width: 25%;
+}
+.btn-card-feature{
+    display: flex;
+    background: #06C167;
+    margin:  50px;
+    padding: 10px;
+}
+.product-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+}
+.prod-rating{
+    display: flex;
+}
+.btn-card-product{
+    display: flex;
+    background: #06C167;
+}
+.whyVegie{
+    display: flex;
+    background-image: url(../images/veggie-foods.png);
+    height: 60vh;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-section{
+    display: flex;
+    margin: 50px;
+
+}
+.foodies{
+    width: 25%;
+}
+.about{
+    width: 25%;
+}
+.company{
+    width: 25%;
+}
+.inTouch{
+    width: 25%;
+}
+
+
+
+@media (max-width: 586px){
+    .collapseNav{
+        display: block;
+      }
+    .nav-menu{
+        display: none;
+    }
+    .home-icon{
+        display: none;
+    }
+    .hero{
+        display: block;
+     }
+    .hero-right{
+        display: block;
+    }
+    .rating{
+        margin-top: 400px;
+    }
+    .comments{
+        margin-top: 300px;
+    }
+    .logoGallery{
+        display: block;
+    }
+    .features{
+        display: block;
+    }
+    .benifits{
+        display: block;
+    }
+    .stars{
+        display: block;
+    }
+    .feature-cards{
+        display: block;
+    }
+    .products{
+        display: block;
+    }
+    .footer-section{
+        display: block;
+    }
+}
